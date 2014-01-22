@@ -1,0 +1,24 @@
+Domain Access + Workflow:
+=========================
+Workflow:
+========
+--> state is not changed correctly
+fix by patch in comment #41 in https://drupal.org/node/1427006#comment-7032140
+- This fix is applied to lines 188 and 952 in the workflow.module file
+domain_wf_bridge:
+===================
+3- Wafaa commented the line 30 in domain_wf_bridge module because it causes disallowing editing privilege from node author that is granted by workflow control access
+=========================================================
+CER
+=====
+applied a patch in this issue http://drupal.org/node/1977710#comment-7408808
+after getting this error when creating a node with role other than admin
+The error:
+==========
+CerException: Cannot create invalid reference to remote entity. in CerHandler->reference() (line 267 of /sftp/adef/adef/sites/all/modules/cer/handler.inc).
+=============================================================================================================================
+Video module:
+===============
+applied patch to add video tokens that can be used in metatag fields for opengraph of fb
+url for patch 
+https://drupal.org/files/1737252-5-horrible-awful-code.patch

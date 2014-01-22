@@ -1,0 +1,4 @@
+name = File Entity Access
+core = 7.x
+description = Restricting some roles access to file manager.
+package = File entity access control

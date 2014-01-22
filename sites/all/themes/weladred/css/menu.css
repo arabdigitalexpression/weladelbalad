@@ -1,0 +1,141 @@
+ul.sf-menu li{margin: 0px;width:10%;text-align: center}
+#block-superfish-2 ul.menu li{width:14.28571428571429%;}
+.sf-menu.sf-style-none {
+    float: right;
+    margin-bottom: 1em;
+    padding: 0;
+    border-bottom:1px solid #fff;
+    /*position: absolute;*/
+    top:2em;
+}
+.sf-menu.sf-style-none.sf-navbar {
+    width: 100%;
+}
+.sf-menu.sf-style-none ul {
+    padding-left: 0;
+}
+.sf-menu.sf-style-none a,
+.sf-menu.sf-style-none span{
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75em 0.5em;
+}
+
+.sf-menu span.nolink {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    background: url('/sites/all/libraries/superfish/images/arrows-ffffff.png') no-repeat -10px -70px;
+    padding-left: 0.8em;
+    padding-right: 1em;
+}
+
+.sf-menu.sf-style-none a.sf-with-ul {
+    padding-right: 2.25em;
+}
+.sf-menu.sf-style-none.rtl a.sf-with-ul {
+    padding-left: 1.8em;
+    padding-right: 1em;
+}
+/*.sf-menu.sf-style-none.sf-navbar a {*/
+    /*border: 0;*/
+/*}*/
+.sf-menu.sf-style-none span.sf-description {
+    color: #f1dec6;
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 5px 0 0 5px;
+    padding: 0;
+}
+.sf-menu.sf-style-none li,
+.sf-menu.sf-style-none.sf-navbar {
+    /*background: #ddd;*/
+    background:transparent url('../img/menu_background.png') center top repeat-x ;
+}
+.sf-menu.sf-style-none li li {
+    /*background: #ddd;*/
+    background:transparent url('../img/menu_background.png') center top repeat-x ;
+}
+.sf-menu.sf-style-none li li li {
+    /*background: #ddd;*/
+    background:transparent url('../img/menu_background.png') center top repeat-x ;
+}
+.sf-menu.sf-style-none li:hover,
+.sf-menu.sf-style-none li.sfHover,
+.sf-menu.sf-style-none li.active a,
+.sf-menu.sf-style-none a:focus,
+.sf-menu.sf-style-none a:hover,
+.sf-menu.sf-style-none a:active,
+.sf-menu.sf-style-none.sf-navbar li li {
+    /*background: #2ba6cb;*/
+    background:transparent url('../img/menu_background.png') center top repeat-x ;
+    color: #fff;
+}
+.sf-menu.sf-style-none.sf-navbar li ul {
+    /*background-color: #2ba6cb;*/
+        background:transparent url('../img/menu_background.png') center top repeat-x ;
+}
+.sf-menu.sf-style-none.sf-navbar li ul li ul {
+    background-color: transparent;
+}
+.sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+    margin: 0;
+    padding: 0;
+}
+.sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+    font-weight: bold;
+}
+.sf-menu.sf-style-none ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+    display: inline;
+    float: left;
+    width: 12em;
+}
+.sf-menu.sf-style-none.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+    float: right;
+}
+.sf-menu.sf-style-none li.sf-parent-children-1 ul.sf-megamenu {
+    width: 12em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-2 ul.sf-megamenu {
+    width: 24em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-3 ul.sf-megamenu {
+    width: 36em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-4 ul.sf-megamenu {
+    width: 48em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-5 ul.sf-megamenu {
+    width: 60em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-6 ul.sf-megamenu {
+    width: 72em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-7 ul.sf-megamenu {
+    width: 84em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-8 ul.sf-megamenu {
+    width: 96em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-9 ul.sf-megamenu {
+    width: 108em;
+}
+.sf-menu.sf-style-none li.sf-parent-children-10 ul.sf-megamenu {
+    width: 120em;
+}
+
+.sf-menu.rtl a > .sf-sub-indicator {
+    top: 0.8em;
+    background-position: -9px -85px;
+}
+
+.sf-menu.rtl a:focus > .sf-sub-indicator,
+.sf-menu.rtl a:hover > .sf-sub-indicator,
+.sf-menu.rtl a:active > .sf-sub-indicator,
+.sf-menu.rtl li:hover > a > .sf-sub-indicator,
+.sf-menu.rtl li.sfHover > a > .sf-sub-indicator {
+    background-position: -9px -85px;
+}

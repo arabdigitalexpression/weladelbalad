@@ -1,0 +1,51 @@
+name = Sa7afet El Balad
+description = This is the main design for Sa7afet El Balad news website.
+core = 7.x
+version = 0.1
+screenshot = screenshot.png
+
+;stylesheets[all][] = css/normalize.css
+;stylesheets[all][] = css/foundation.css
+stylesheets[all][] = css/style.css
+
+;scripts[] = javascript/foundation.min.js
+scripts[] = javascript/vendor/jquery.equalheights.js
+scripts[] = javascript/vendor/jquery.imagesloaded.js
+scripts[] = javascript/script.js
+
+
+; Panels layouts. You can place multiple layouts under the "layouts" folder.
+plugins[panels][layouts] = layouts
+
+
+regions[header]                 = Header
+regions[navigation]             = Navigation
+regions[highlighted]            = Highlighted
+regions[help]                   = Help
+regions[content]                = Content
+regions[sidebar_first]          = Sidebar
+regions[footer_left]            = Footer Left
+regions[footer_right]           = Footer Right
+regions[footer_center]          = Footer Center
+regions[footer]                 = Footer
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[toggle_logo] = 1
+settings[toggle_name] = 1
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 0
+settings[toggle_comment_user_picture] = 0
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
